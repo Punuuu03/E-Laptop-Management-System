@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-Laptop System</title>
+        <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+        <nav>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Order</a></li>
+                <li><a href="#tours">Collection</a></li>
+                <li><a href="#menu">Laptops</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#review">Review</a></li>
+                <li><a href="logout.php">Logout</a></li>
+                </ul>
+        </nav>
+        <!-- home -->
+        <section class="home" id="home">
+                <div class="content">
+                        <h3>Connect With Digital World</h3>
+                        <h1>Buy laptops online at best prices from laptopstoreindia - best online laptop store in India.</h1>
+                        <a href="#" class="btn">Buy Now</a>
+                </div>
+        </section>
+        <!-- order -->
+        <section class="menu" id="menu">
+                <br>
+                <br>
+                <h1 class="heading"><span></span>Orders</h1>
+                <br>
+                <h2>The best you can get.</h2>
+                <h3>For the future generation of large corporations.</h3>
+                <marquee scrollamount="10" direction="down">Explore Our Services</marquee>
+                <div class="box-container">
+                        <div class="box">
+                                <img src="https://w7.pngwing.com/pngs/255/14/png-transparent-dell-vostro-laptop-hewlett-packard-logo-laptop-blue-electronics-text.png"
+                                        alt="">
+                                <h3>Dell</h3>
+                                <a href="#blogs" class="btn">Explore</a>
+                        </div>
+                        <div class="box">
+                                <img src="https://w7.pngwing.com/pngs/970/687/png-transparent-hewlett-packard-laptop-hp-pavilion-logo-printer-cool-miscellaneous-emblem-trademark.png"
+                                        alt="">
+                                <h3>HP</h3>
+                                <a href="#blogs1" class="btn">Explore</a>
+                        </div>
+                        <div class="box">
+                                <img src="https://www.soundsolutions.in/img/acerlogo.jpg"
+                                        alt="">
+                                <h3>Acer</h>
+                                        <br>
+                                        <a href="#blogs2" class="btn">Explore</a>
+                        </div>
+                        <div class="box">
+                                <img src="data:image/png;base64,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"
+                                        alt="">
+                                <h3>Lenovo</h3>
+                                <a href="#blogs3" class="btn">Explore</a>
+                        </div>
+                </div>
+        </section>
+        <!-- collection -->
+        </section>
+        <section class="tours" id="tours">
+                <br><br><br><br><br>
+                <h1 class="heading"><span></span>Collections</h1>
+                <div class="row">
+                        <div class="col content-col">
+                                <h1>Laptop Collections</h1>
+                                <br>
+                                <p>The Best Laptops That You Can Get From Here With Best Offers.</p>
+                        </div>
+                        <div class="col image-col">
+                                <div class="image-gallery">
+                                        <a href="#blogs">
+                                                <img src="https://n4.sdlcdn.com/imgs/b/e/0/Hifex-Viny-Decal-15-6-SDL417289002-1-7d746.jpg"
+                                                        alt="" width="450" height="230">
+                                        </a>
+                                        <a href="#blogs1">
+                                                <img src="https://rukminim1.flixcart.com/image/416/416/laptop-skin-decal/y/t/z/15-6-print-shapes-sparking-hp-logo-original-imae4g7239ykqqca.jpeg?q=70"
+                                                        alt="" width="450" height="230">
+                                        </a>
+                                        <a href="#blogs2">
+                                                <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71lMWq4-5qL._SL1500_.jpg"
+                                                        alt="" width="450" height="230">
+                                        </a>
+                                        <a href="#blogs3">
+                                                <img src="https://t3.ftcdn.net/jpg/03/43/11/04/360_F_343110487_1NFnF7tHnaPI34LaRgkQ59wBWLt4A6u2.jpg"
+                                                        alt="" width="450" height="230">
+                                        </a>
+                                </div>
+                        </div>
+                </div>
+        </section>
+        <!-- flowers -->
+        <section class="blogs" id="blogs">
+                <br>
+                <br>
+                <h1 class="heading">Dell <span>Laptops</span> </h1>
+                <br>
+                <br>
+                <div class="box-container">
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/14-3420/media-gallery/peripherals_laptop_latitude_3420nt_gallery_3.psd?fmt=pjpg&pscan=auto&scl=1&wid=3635&hei=2548&qlt=100,1&resMode=sharp2&size=3635,2548&chrss=full&imwidth=5000"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Dell Inspiration 3501</a>
+                                        <p>DELL Inspiron 3501 Laptop Core i3 10th Gen 4 GB/256 GB SSD</p>
+                                        <span name="price">₹50000</span>
+                                        <a href="buy.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://techbd.com.bd/wp-content/uploads/2021/04/dell-2-in-1-5491-2-min-500x500-1.jpg"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Dell Inspiration 3502</a>
+                                        <p>DELL Core i5 12th Gen - 8 GB/512 GB SSD/Windows 11 Home</p>
+                                        <span>₹70000</span>
+                                        <a href="buy.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://m.media-amazon.com/images/I/71nP6lTogjL.jpg"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Dell Inspiration 3503</a>
+                                        <p>Dell Inspiron 3503 Core i5 11th Gen Inspiron 3501 Laptop</p>
+                                        <span>₹55000</span>
+                                        <a href="buy.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+        <section class="blogs" id="blogs">
+                <br>
+                <div class="box-container">
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://sm.ign.com/ign_me/screenshot/default/71xvcxos7vs-ac-sx679_4bgh.jpg"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Dell Gaming Inspiration 3504</a>
+                                        <p>IdeaPad Gaming 3 Gen 6 (15, AMD)</p>
+                                        <span>₹45000</span>
+                                        <a href="buy.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://cdn11.bigcommerce.com/s-sp9oc95xrw/images/stencil/1280x1280/products/10792/52551/7912f8__22744.1675761049.jpg?c=2"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Dell Inspiration 3505</a>
+                                        <p>Dell Intel Core i3-11th Gen 16 GB Ram 1TB HDD+256GB SSD Windows 11 Home+Office 2021 32 GB Pendrive sandisk</p>
+                                        <span>₹52000</span>
+                                        <a href="buy.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://i.ebayimg.com/images/g/gZQAAOSwHxNhsd4-/s-l640.jpg"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Dell Inspiration 3506</a>
+                                        <p>Dell Inspiron 3506 2in1 Laptop,12th Gen Intel Core i3-1215U, 8GB & 256GB SSD</p>
+                                        <span>₹65000</span>
+                                        <a href="buy.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+        <!-- vegetable -->
+        <section class="blogs" id="blogs1">
+                <br>
+                <br>
+                <h1 class="heading">HP <span>Laptops</span> </h1>
+                <br>
+                <br>
+                <div class="box-container">
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://www.reliancedigital.in/medias/HP-14s-dq3032tu-Laptops-492849723-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyODAzOTB8aW1hZ2UvanBlZ3xpbWFnZXMvaGQ4L2hlNS85ODA3MDk5ODU0ODc4LmpwZ3wxYWQxMjBmMTA3M2ZhN2VkMjY1MjMxYTZhOTYzNjU0NzNiMzAyZWVhMGZkOWZjZDFmMzIzNzJiODcwYzY5NWMy"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">HP 15s</a>
+                                        <p>HP 15s, 12th Gen Intel Core i5 8GB RAM/512GB SSD 15.6</p>
+                                        <span>₹55000</span>
+                                        <a href="buy1.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71uOkXZyteL._SL1500_.jpg"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Hp Pavilion</a>
+                                        <p>HP Pavilion 14 12th Gen Intel Core i5 8GB RAM/512GB SSD 14 inch</p>
+                                        <span>₹50000</span>
+                                        <a href="buy1.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://snaptech.org/wp-content/uploads/2022/10/HP-elitebook-840-g5-laptop.jpg"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">HP Yoga 7</a>
+                                        <p>HP Yoga 7, 12th Gen Intel Core i5 8GB RAM/512GB SSD 15.6</p>
+                                        <span>₹53000</span>
+                                        <a href="buy1.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+        <section class="blogs" id="blogs1">
+                <br>
+                <div class="box-container">
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://laptopmart.pk/wp-content/uploads/2022/12/HP-Laptop-15s-eq2001ne.jpg"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">HP 13s</a>
+                                        <p>HP 13s, 12th Gen Intel Core i5 8GB RAM/512GB SSD 15.6</p>
+                                        <span>₹67000</span>
+                                        <a href="buy1.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71gfBu6PmCL._SX522_.jpg"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">HP V14</a>
+                                        <p>HP V14, 12th Gen Intel Core i5 8GB RAM/512GB SSD 15.6</p>
+                                        <span>₹49000</span>
+                                        <a href="buy1.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://cdn1.smartprix.com/rx-i1CuEUDbf-w1200-h1200/1CuEUDbf.jpg"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">HP Extensa 7</a>
+                                        <p>HP Extensa 7, 12th Gen Intel Core i5 8GB RAM/512GB SSD 15.6</p>
+                                        <span>₹45000</span>
+                                        <a href="buy1.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                </div>
+        </section>
+        <!-- medicinal -->
+        <section class="blogs" id="blogs2">
+                <br>
+                <br>
+                <h1 class="heading">Acer <span>Laptops</span> </h1>
+                <br>
+                <br>
+                <div class="box-container">
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://www.mikronis.hr/_shop/files/products/19344-2965_5046989c-cd1e-4150-8348-281c00c33167.jpg?preset=product-fullsize&id=2170792" alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Acer Swift 3</a>
+                                        <p>Acer Swift 3 OLED 12th Gen Intel Core i5 (12-Core) (16GB/512GB SSD/ Windows 11 Home/ MS Office) </p>
+                                        <span>₹80000</span>
+                                        <a href="buy2.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://ph-test-11.slatic.net/p/8ac53a090b8d83e0f7bf1061b3629fbe.jpg"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Acer Nitro 3</a>
+                                        <p>Acer Nitro 5 AN515-43 15.6 inch FHD IPS Display Gaming Laptop 8GB Ram/512GB SSD/Win10
+                                        </p>
+                                        <span>₹100000</span>
+                                        <a href="buy2.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://cdn.shopify.com/s/files/1/2158/2147/products/NX.HH8SA.001.3_7c9e4f15-9bee-4dfb-a114-8c5ff2905cb3_1024x1024.jpg?v=1671239779" alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Acer Nitro 7</a>
+                                        <p>Acer Nitro 7 AN515-43 15.6 inch FHD IPS Display Gaming Laptop 8GB Ram/512GB SSD/Win10
+                                        </p>
+                                        <span>₹51000</span>
+                                        <a href="buy2.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                </div>
+
+        </section>
+
+        <section class="blogs" id="blogs2">
+                <br>
+                <div class="box-container">
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://www.notebookcheck.net/fileadmin/Notebooks/Acer/Aspire_5_A515-52G-721H/4zu3_Acer_Aspire_5_A515_52G.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Acer Aspire 3</a>\
+
+                                        <p>Acer Aspire 3 AN515-43 15.6 inch FHD IPS Display Gaming Laptop 8GB Ram/512GB SSD/Win10
+                                        </p>
+                                        <span>₹57000</span>
+                                        <a href="buy2.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://media.currys.biz/i/currysprod/10238892?$l-large$&fmt=auto"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Acer Aspire 5</a>
+                                        <p>Acer Aspire 5 AN515-43 15.6 inch FHD IPS Display Gaming Laptop 8GB Ram/512GB SSD/Win10
+                                        </p>
+                                        <span>₹59000</span>
+                                        <a href="buy2.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://pdx.ps/wp-content/uploads/2023/02/acer-6.jpg"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Acer Swift 5</a>
+                                        <p>Acer Swift 5 AN515-43 15.6 inch FHD IPS Display Gaming Laptop 8GB Ram/512GB SSD/Win10
+                                        </p>
+                                        <span>₹61000</span>
+                                        <a href="buy2.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                </div>
+        </section>
+        <!-- fruits -->
+        <section class="blogs" id="blogs3">
+                <br>
+                <br>
+                <h1 class="heading">Lenovo <span>Laptops</span> </h1>
+                <br>
+                <br>
+                <div class="box-container">
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://static.lenovo.com/ww/img/new-homepage/default/lenovo-pcs-tablets-hover.jpg"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Lenovo V15 G2</a>
+                                        <p>Lenovo V15 G2 Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home)</p>
+                                        <span>₹54000</span>
+                                        <a href="buy3.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://tawin.vn/wp-content/uploads/2021/05/techzones-lenovo-ideapad-3-gen-6-6.png"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Lenovo V15 G3</a>
+                                        <p>Lenovo V15 G3 Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home)</p>
+                                        <span>₹60000</span>
+                                        <a href="buy3.html" class="btn">read more</a>
+                                </div>
+                        </div>
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://media.notebookinfo.de/produkt/42387/540x540/center/f3f5f7/lenovo-ideapad-3-14alc6-blau-82kt00mvge-1.jpg"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Lenovo V15 G4</a>
+                                        <p>Lenovo V15 G4 Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home)</p>
+                                        <span>₹41000</span>
+                                        <a href="buy3.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+        <section class="blogs" id="blogs3">
+                <br>
+                <div class="box-container">
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://static.republika.co.id/uploads/member/images/news/fm8449kn07.jpg"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Lenovo IdeaPad Gaming</a>
+                                        <p>IdeaPad Gaming 3 Gen 6 (15, AMD)-(8 GB/512 GB SSD/Windows 11 Home)</p>
+                                        <span>₹89000</span>
+                                        <a href="buy3.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71EHONuB1dL.jpg"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Lenovo IdeaPad 3</a>
+                                        <p>IdeaPad Gaming 3 Gen 6 (15, AMD)-(8 GB/512 GB SSD/Windows 11 Home)</p>
+                                        <span>₹45000</span>
+                                        <a href="buy3.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                        <div class="box">
+                                <div class="image">
+                                        <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61q6x-ll5FL._SY450_.jpg"
+                                                alt="">
+                                </div>
+                                <div class="content">
+                                        <a href="#" class="title">Lenovo IdeaPad 6</a>
+                                        <p>IdeaPad Gaming 6 Gen 6 (15, AMD)-(8 GB/512 GB SSD/Windows 11 Home)</p>
+                                        <span>₹70000</span>
+                                        <a href="buy3.html" class="btn">Order Now</a>
+                                </div>
+                        </div>
+                </div>
+        </section>
+        <!-- about -->
+        <section class="about" id="about"><br>
+                <br>
+                <br>
+                <h1 class="heading"><span>about</span> us</h1>
+                <div class="row">
+                        <div class="image">
+                                <img src="https://cdn.mos.cms.futurecdn.net/RCY7zJUDY6rDuKt27wBGk5.jpg"
+                                        alt="">
+                        </div>
+                        <div class="content">
+                                <h3>Laptop Mag</h3>
+                                <p>Who is Laptop Mag? We're your friendly, neighborhood geeks, excited to tell you about the latest and greatest happenings in mobile tech. We're here to decipher all the tech jargon so you can make an informed decision on your next gadget purchase. And while our laptop coverage is our claim to fame, as the pulse of mobile tech, we bring the same geeky passion to a number of arenas such as tablets, audio, gaming and so much more.</p>
+                                <a href=""
+                                        class="btn">learn more</a>
+                        </div>
+                </div>
+        </section>
+        <!-- review -->
+        <section class="review" id="review">
+                <h1 class="heading">customer's <span> review</span></h1>
+                <div class="box-container">
+                        <div class="box">
+                                <img src="http://allstaffusa.com/images/video-home.jpg" class="user" alt="">
+                                <p>Prior to writing and translating for Notebookcheck, I worked for various companies including Apple and Neowin. I have a BA in International History and Politics from the University of Leeds, which I have since converted to a Law Degree.</p>
+                                <button class="btn"><a
+                                                href="">Explore</a></button>
+                        </div>
+                        <div class="box">
+                                <img src="https://media.istockphoto.com/id/1250498155/photo/indian-businessman-stock-photo.jpg?s=612x612&w=0&k=20&c=sc-lgmKZX5i0qLvW3szmalr0uQE6dowCuYC4031wRCg="
+                                        class="user" alt="">
+                                        <p>If you want a Windows laptop with as large of a screen as possible, your options are basically the Dell XPS 17 or the LG Gram 17. The calculus between the two is quite straightforward. If you care more about power, go XPS; if you care more about portability, go Gram.</p>
+                                <button class="btn"><a
+                                                href="">Explore</a></button>
+                        </div>
+                        <div class="box">
+                                <img src="https://thumbs.dreamstime.com/z/happy-woman-laptop-working-home-office-business-people-technology-concept-smiling-computer-95086252.jpg"
+                                        class="user" alt="">
+                              <p>The Lenovo Legion Pro 7i is the company’s flagship gaming laptop, offering up the highest-end components and a design that’s tuned for gaming. The latest model sports a very fast Intel 13th-gen Raptor Lake CPU and a high-end Nvidia GPU.</p>
+                                <button class="btn"><a
+                                                href="">Explore</a></button>
+                        </div>
+                </div>
+        </section>
+        <!-- footer -->
+        <section class="footer">
+                <div class="centerdiv">
+                        <a href="#" target="_blank">
+                                <i class="fab fa-linkedin-in">Instagram</i>
+                        </a>
+                        <a href="#" target="_blank">
+                                <i class="fa fa-5px fa-instagram">Twitter</i>
+                        </a>
+                        <a href="#" target="_blank">
+                                <i class="fa fa-5px fa-github">phone No</i>
+                        </a>
+                        <a href="#" target="_blank">
+                                <i class="fa fa-hackerrank">email</i>
+                        </a>
+                </div>
+                <h2>Mohite Punam</h2>
+                <h3>mohitepunam29@gmail.com</h3>
+        </section>
+</body>
+
+</html>
